@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro funcionário</title>
+</head>
+<body
+	style="font-family: Arial, sans-serif; background-color: #F5F5F5; text-align: center;">
+
+	<h1 style="color: #4CAF50; font-size: 36px;">Cadastro funcionário</h1>
+
+	<form action="SaveServlet" method="post">
+		<div
+			style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+			<table>
+				<tr>
+					<td>Nome:</td>
+					<td><input type="text" name="name" style="width: 150px" /></td>
+				</tr>
+				<tr>
+					<td>Senha:</td>
+					<td><input type="password" name="password"
+						style="width: 150px" /></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="email" name="email" style="width: 150px" /></td>
+				</tr>
+				<tr>
+					<td>País:</td>
+					<td><select name="country" style="width: 158px">
+							<option>India</option>
+							<option>EUA</option>
+							<option>Inglaterra</option>
+							<option>Outro</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" value="Salvar"
+						style="padding: 10px; border-radius: 5px; background-color: #4CAF50; color: white; border: none; cursor: pointer; font-size: 16px; margin-top: 20px"></td>
+				</tr>
+			</table>
+		</div>
+	</form>
+	<p>
+		<a href="ViewServlet" style="color: #000; font-size: 16px;">Visualizar
+			funcionários</a>
+	</p>
+	<p>
+		<a href="creditos.html" style="color: #000; font-size: 16px;">Créditos</a>
+	</p>
+</body>
+</html>
