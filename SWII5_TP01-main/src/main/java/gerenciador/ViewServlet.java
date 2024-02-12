@@ -1,6 +1,5 @@
 /*
- * Eduarda Vitória
- * Stefany Tam*/
+ *Roberto Junior*/
 
 package gerenciador;
 
