@@ -1,6 +1,6 @@
 /*
  * Roberto Junior Cb3000419
- * Melinda Horus Ramalho Silva Cb301309X */
+ */
 package gerenciador;
 
 import java.io.IOException;
