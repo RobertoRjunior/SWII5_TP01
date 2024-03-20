@@ -1,5 +1,5 @@
 /*
- * Roberto Junior*Roberto Junior Cb3000419
+ * Roberto Junior
  */
 
 package gerenciador;
